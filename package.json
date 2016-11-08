@@ -1,6 +1,10 @@
 {
   "name": "oishii",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "engines": {
+    "node": "6.3.1",
+    "npm": "3.10.3"
+  },
   "description": "A food porn bot",
   "homepage": "https://github.com/perryyan/oishii",
   "author": {
