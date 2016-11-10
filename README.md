@@ -23,8 +23,8 @@ npm start
 
 ## Currently supported chat functions:
 When this bot is added to your discord server, it will respond to the following actions:
-!food - pick a random food photo from tumblr
-!shibe - pick a random shiba inu photo from tumblr
+* !food - pick a random food photo from tumblr
+* !shibe - pick a random shiba inu photo from tumblr
 
 ## Heroku
 This application runs great on heroku servers too. Just fork this repo and deploy it with the environment variables configured as above.
