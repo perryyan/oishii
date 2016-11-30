@@ -23,7 +23,6 @@ module.exports = {
 		'beautiful-foods.tumblr.com',
 		'gastrogirl.tumblr.com',
 		'yahoo-food-blogger.tumblr.com',
-		'foodonmydog.tumblr.com',
 		'creamy-cheese.tumblr.com'
 
 	]
