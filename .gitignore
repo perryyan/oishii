@@ -90,3 +90,5 @@ ENV/
 
 /node_modules
 config_secret.js
+npm-debug.log
+npm-debug.log.*
