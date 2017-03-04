@@ -33,11 +33,13 @@ This application runs great on heroku servers too. Just fork this repo and deplo
 Included in this repo is a dockerfile and a docker-compose template.
 Simply include the environment variables above in the docker-compose.yml and start it using docker-compose up.
 Or, if you prefer to run it in a standalone container,
-```docker build -t oishii/latest -f oishii-dockerfile
+```
+docker build -t oishii/latest -f oishii-dockerfile
 docker run  -p 49160:6969 -d oishii/latest \
 -e PORT=6969 \
 -e DISCORD_APPLICATION_TOKEN=<DISCORD API TOKEN> \
 -e TUMBLR_OAUTH_CONSUMER_KEY=<TUMBLR CONSUMER KEY> \
 -e TUMBLR_OAUTH_CONSUMER_SECRET=<TUMBLR CONSUMER SECRET> \
 -e TUMBLR_OAUTH_TOKEN=<TUMBLR TOKEN> \
--e TUMBLR_OAUTH_TOKEN_SECRET=<TUMBLR TOKEN SECRET>```
+-e TUMBLR_OAUTH_TOKEN_SECRET=<TUMBLR TOKEN SECRET>
+```
