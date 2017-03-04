@@ -25,6 +25,8 @@ npm start
 When this bot is added to your discord server, it will respond to the following actions:
 * !food - pick a random food photo from tumblr
 * !shibe - pick a random shiba inu photo from tumblr
+* !birb - pick a random bird photo from tumblr
+* !ducc - pick a random duck photo from tumblr
 
 ## Heroku
 This application runs great on heroku servers too. Just fork this repo and deploy it with the environment variables configured as above.
