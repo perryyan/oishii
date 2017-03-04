@@ -37,8 +37,7 @@ Simply include the environment variables above in the docker-compose.yml and sta
 Or, if you prefer to run it in a standalone container,
 ```
 docker build -t oishii/latest -f oishii-dockerfile
-docker run  -p 49160:6969 -d oishii/latest \
--e PORT=6969 \
+docker run  -p 49160:8080 -d oishii/latest \
 -e DISCORD_APPLICATION_TOKEN=<DISCORD API TOKEN> \
 -e TUMBLR_OAUTH_CONSUMER_KEY=<TUMBLR CONSUMER KEY> \
 -e TUMBLR_OAUTH_CONSUMER_SECRET=<TUMBLR CONSUMER SECRET> \
